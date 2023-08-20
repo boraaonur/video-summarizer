@@ -1,0 +1,17 @@
+{
+  "name": "Youtube Video Summarizer",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "host_permissions": ["*://*.youtube.com/*"],
+  "action": {
+    "default_title": "Youtube Video Summarizer",
+    "default_popup": "popup/dist/index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content/dist/content.js"]
+    }
+  ]
+}
