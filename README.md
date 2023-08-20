@@ -1,4 +1,4 @@
-## Chrome Extension: GPT-Powered Video Summarizer for YouTube
+## Chrome Extension: Video Summarizer for YouTube
 
 **Important:** This repository utilizes `openai@v4.0.0-beta.8` and is configured with `dangerouslyAllowBrowser` set to `true`, allowing client-side API calls. This feature typically comes with security concerns, but there are specific reasons why I decided to utilize it.
 

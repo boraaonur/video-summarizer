@@ -1,11 +1,11 @@
 {
-  "name": "GPT-Powered Video Summarizer for YouTube",
+  "name": "Video Summarizer for YouTube",
   "version": "1.0.0",
   "manifest_version": 3,
   "permissions": ["storage", "activeTab", "scripting", "tabs"],
   "host_permissions": ["*://*.youtube.com/*"],
   "action": {
-    "default_title": "GPT-Powered Video Summarizer for YouTube",
+    "default_title": "Video Summarizer for YouTube",
     "default_popup": "popup/dist/index.html"
   },
   "content_scripts": [
